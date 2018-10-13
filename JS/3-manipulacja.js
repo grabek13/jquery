@@ -43,7 +43,11 @@ $('p').css({
 });
 
 //dodawanie i usuwanie klas
-setTimeout(function(){
+/*setTimeout(function(){
 //    $('body').addClass('decor');
     $('body').removeClass('page');
-},4000);
+},4000);*/
+
+setInterval(function () {
+    $('body').toggleClass('decor');
+}, 1500);
