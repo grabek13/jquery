@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 10px;
+}
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+}
+
+h2 {
+    font-size: 0.9rem;
+    position: relative;
+    display: block;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border: 0;
+    color: yellow;
+}
